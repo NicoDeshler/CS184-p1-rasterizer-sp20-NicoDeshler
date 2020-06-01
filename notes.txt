@@ -1,0 +1,5 @@
+Loop subdivision debugging issues
+- Many problems with conditioning properly for edge traversal and splitting (avoiding infinite loops)
+- Conceptually it took me some time to understand how edge splits and flips could be used to acheive 4-1 triangle division. After drawing several examples by hand I came to understand intuitively how the process worked
+- Recognizing that not all of the new edges created in the split function should be labeled as such
+- Debugging vertex positions took some time as well. I had accidentally initialized the neighbor_vertex_sum variable (a variable holding the sum of the vertex positions surrounding a target vertex for weighted averaging) to the vertex itself. Consequently the subdivison 
