@@ -1,3 +1,5 @@
+The project write-up is at [Project 1: Rasterizer](https://nicodeshler.github.io/CS184-sp20-p3-2-pathtracer/)
+
 <p>
   <img src="https://cs184.eecs.berkeley.edu/cs184_sp16_content/article_images/3_1.jpg" width="800px" align="middle"/>
 </p>
